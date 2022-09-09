@@ -1,0 +1,22 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 2;
+}
+.search-container input {
+  padding: 1rem;
+  width: 100%;
+  font-size: clamp(0.813rem, 0.699rem + 0.57vw, 1.125rem);
+  background-color: #dfd3e3;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+}
+.search-container .search-icon {
+  font-size: clamp(0.813rem, 0.699rem + 0.57vw, 1.125rem);
+  color: red;
+  margin-left: -2rem;
+  cursor: pointer;
+}

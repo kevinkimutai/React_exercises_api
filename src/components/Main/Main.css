@@ -1,0 +1,10 @@
+.main-section {
+  display: flex;
+  background: var(--color-white-2);
+}
+@media screen and (max-width: 640px) {
+  .main-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
